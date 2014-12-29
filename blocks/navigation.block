@@ -14,7 +14,7 @@
                   <!--FOLDER-->
 
                   <div class="folder-parent">
-                    <a aria-haspopup="true"><span>{collection.navigationTitle}</span></a>
+                    <a aria-haspopup="true" href="collection.fullUrl"><span>{collection.navigationTitle}</span></a>
                     <div class="folder-child-wrapper">
                       <ul class="folder-child">
                         {.repeated section items}
